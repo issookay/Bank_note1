@@ -23,7 +23,7 @@ import os
 PATH='/content/gdrive/MyDrive/Machine Learning Modelling'
 os.chdir(PATH)
 
-!ls
+
 
 data = pd.read_csv('BankNote.csv', na_values=['#','?'])
 
